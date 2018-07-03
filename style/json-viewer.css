@@ -18,6 +18,7 @@
 .json-viewer ul li .type-string,
 .json-viewer ul li .type-date {
 	color: #0B7500;
+	white-space: normal;
 }
 
 .json-viewer ul li .type-boolean {
@@ -63,4 +64,9 @@
 
 .json-viewer .items-ph:hover {
 	text-decoration: underline;
+}
+
+.warning-message {
+	margin: 0px 10px 0px 10px;
+	color: orangered;
 }

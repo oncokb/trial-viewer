@@ -1,0 +1,36 @@
+{
+  "long_title" : "A Phase 1 Multiple Ascending Dose Study of DS-3032b, an Oral MDM2 Inhibitor, in Subjects With Advanced Solid Tumors or Lymphomas",
+  "nct_id" : "NCT001",
+  "phase" : "I",
+  "short_title" : "A Phase 1 Multiple Ascending Dose Study of DS-3032b, an Oral Murine Double Minute 2 (MDM2) Inhibitor, in Subjects With Advanced Solid Tumors or Lymphomas",
+  "status" : "Active",
+  "treatment_list" : {
+    "step" : [ {
+      "arm" : [ {
+        "arm_description" : "DS-3032: Dose Expansion",
+        "arm_eligibility" : "Part 2 (Additional Inclusion Criteria for Solid Tumor/Lymphoma Dose Expansion) 1. Has a histologically or cytologically documented advanced melanoma or DLBCL with measurable disease that is refractory to standard treatment or for which no standard treatment is available. \n\nExclusion Criteria:\nPart 2 (Additional Inclusion Criteria for Solid Tumor/Lymphoma Dose Expansion) 1. Has a tumor which contains a nonsynonymous mutation, insertion, or deletion in the TP53 gene determined previously or at screening. \n",
+        "arm_info" : "DS-3032b will be administered as an oral capsule. It will be supplied in 5 mg, 20 mg, 80 mg, and 200 mg capsules individually packaged in desiccant-embedded aluminum blisters.",
+        "match" : [ {
+          "and" : [ {
+            "genomic" : {
+              "annotated_variant" : "Wildtype",
+              "hugo_symbol" : "TP53"
+            }
+          }, {
+            "or" : [ {
+              "clinical" : {
+                "age_numerical" : ">=18",
+                "oncotree_primary_diagnosis" : "Melanoma"
+              }
+            }, {
+              "clinical" : {
+                "age_numerical" : ">=18",
+                "oncotree_primary_diagnosis" : "Diffuse Large B-Cell Lymphoma, NOS"
+              }
+            } ]
+          } ]
+        } ]
+      } ]
+    } ]
+  }
+}

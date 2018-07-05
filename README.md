@@ -1,5 +1,7 @@
 # TrialViewer
-TrialViewer is a vanilla JavaScript tool for visualising trial JSON data. We use [JSONViewer] for demo.
+TrialViewer is a vanilla JavaScript tool for visualising trial JSON data. We use [JSONViewer] to display json structure.
+
+Demo Site: [oncokb.github.io/trial-viewer]
 
 ## Development
 1. Create new instance of JSONViewer object.
@@ -18,3 +20,4 @@ TrialViewer is a vanilla JavaScript tool for visualising trial JSON data. We use
     ```
 
 [JSONViewer]: https://github.com/LorDOniX/json-viewer
+[oncokb.github.io/trial-viewer]: https://oncokb.github.io/trial-viewer
